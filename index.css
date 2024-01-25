@@ -265,3 +265,18 @@ h1 {
   cursor: pointer;
   transform: scale(1.05);
 }
+
+.card .save-header {
+  color: white;
+  background: linear-gradient(90deg, 
+  rgba(2,0, 36, 1) 0%,
+  rgba(53, 10, 74,1) 36%,
+  rgba(83, 49, 156, 1)100%
+  );
+  position: absolute;
+  top: -24px; 
+  left: 0;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
